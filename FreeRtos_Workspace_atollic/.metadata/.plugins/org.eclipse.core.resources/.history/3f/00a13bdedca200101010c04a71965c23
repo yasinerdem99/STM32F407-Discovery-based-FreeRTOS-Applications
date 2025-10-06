@@ -77,7 +77,7 @@ void Task2_Handler(void *params)
 			 	if(UART_ACCESS_KEY == 1)
 			 	{
 			 		UART_ACCESS_KEY=0;
-			 		printMessage("2.gorevv\r\n");
+			 		printMessage("2.gorev\r\n");
 			 		UART_ACCESS_KEY=1;
 			 		taskYIELD();
 

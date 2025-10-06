@@ -13324,7 +13324,7 @@ void Task2_Handler(void *params)
  8004d34:	4b08      	ldr	r3, [pc, #32]	; (8004d58 <Task2_Handler+0x34>)
  8004d36:	2200      	movs	r2, #0
  8004d38:	701a      	strb	r2, [r3, #0]
-			 		printMessage("2.gorev\r\n");
+			 		printMessage("2.gorevv\r\n");
  8004d3a:	4808      	ldr	r0, [pc, #32]	; (8004d5c <Task2_Handler+0x38>)
  8004d3c:	f000 f864 	bl	8004e08 <printMessage>
 			 		UART_ACCESS_KEY=1;
