@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="EXPORT_DIALOG">
+		<item value="0x20013278" key="Start"/>
+		<item value="0x20015275" key="End"/>
+		<item value="C:\Users\LENOVO\Desktop\FreeRtos_Workspace_atollic\002_HelloWorld_FreeRTOS_SEGGER_SystemView\records_segger\002_HelloWorld_FreeRTOS.SVdat" key="File"/>
+		<item value="rawbinary" key="SELECTED_EXPORTER"/>
+		<item value="0x20013278" key="Initial address"/>
+	</section>
+</section>
