@@ -39,7 +39,7 @@ int main(void)
 	SEGGER_SYSVIEW_Conf();
 	SEGGER_SYSVIEW_Start();
 
-	sprintf(myMessage,"merhaba yasinnnn\r\n");
+	sprintf(myMessage,"merhaba yasin\r\n");
 	printMessage(myMessage);
 
 	//3.adým görev oluþturma
