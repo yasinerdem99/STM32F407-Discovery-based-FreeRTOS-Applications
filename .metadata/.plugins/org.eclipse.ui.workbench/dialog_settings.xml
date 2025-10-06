@@ -22,4 +22,6 @@
 			<item value="com.atollic.truestudio.pro.wizards"/>
 		</list>
 	</section>
+	<section name="ImportExportAction">
+	</section>
 </section>
