@@ -23,23 +23,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
   9 .ARM.attributes 00000030  00000000  00000000  00020040  2**0
                   CONTENTS, READONLY
- 10 .debug_info   0001362c  00000000  00000000  00020070  2**0
+ 10 .debug_info   0001360a  00000000  00000000  00020070  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_abbrev 00002807  00000000  00000000  0003369c  2**0
+ 11 .debug_abbrev 00002807  00000000  00000000  0003367a  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_aranges 00001068  00000000  00000000  00035ea8  2**3
+ 12 .debug_aranges 00001068  00000000  00000000  00035e88  2**3
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_ranges 00000f20  00000000  00000000  00036f10  2**3
+ 13 .debug_ranges 00000f20  00000000  00000000  00036ef0  2**3
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_line   00008555  00000000  00000000  00037e30  2**0
+ 14 .debug_line   00008225  00000000  00000000  00037e10  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_str    00005c30  00000000  00000000  00040385  2**0
+ 15 .debug_str    00005c0e  00000000  00000000  00040035  2**0
                   CONTENTS, READONLY, DEBUGGING
- 16 .comment      0000007c  00000000  00000000  00045fb5  2**0
+ 16 .comment      0000007c  00000000  00000000  00045c43  2**0
                   CONTENTS, READONLY
- 17 .debug_frame  00004590  00000000  00000000  00046034  2**2
+ 17 .debug_frame  00004590  00000000  00000000  00045cc0  2**2
                   CONTENTS, READONLY, DEBUGGING
- 18 .stabstr      0000003f  00000000  00000000  0004a5c4  2**0
+ 18 .stabstr      0000003f  00000000  00000000  0004a250  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -13441,8 +13441,8 @@ void USART_Config()
 
 	USART_InitTypeDef USART_InitStruct;
 
-	USART_InitStruct.USART_BaudRate = 115200;
- 8004df0:	f44f 33e1 	mov.w	r3, #115200	; 0x1c200
+	USART_InitStruct.USART_BaudRate = 9600;
+ 8004df0:	f44f 5316 	mov.w	r3, #9600	; 0x2580
  8004df4:	603b      	str	r3, [r7, #0]
 	USART_InitStruct.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
  8004df6:	2300      	movs	r3, #0
