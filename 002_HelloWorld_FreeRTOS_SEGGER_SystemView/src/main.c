@@ -39,7 +39,7 @@ int main(void)
 	SEGGER_SYSVIEW_Conf();
 	SEGGER_SYSVIEW_Start();
 
-	sprintf(myMessage,"merhabaaaa yasinnnn\r\n");
+	sprintf(myMessage,"merhaba yasin iþ yeri bu umarm olr\r\n");
 	printMessage(myMessage);
 
 	//3.adým görev oluþturma
@@ -77,7 +77,7 @@ void Task2_Handler(void *params)
 			 	if(UART_ACCESS_KEY == 1)
 			 	{
 			 		UART_ACCESS_KEY=0;
-			 		printMessage("2.gorevv\r\n");
+			 		printMessage("2.gorev\r\n");
 			 		UART_ACCESS_KEY=1;
 			 		taskYIELD();
 
